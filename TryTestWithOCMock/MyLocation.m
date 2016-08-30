@@ -22,7 +22,7 @@
     return nil;
   }
   
-  postalCode = @"Unknow";
+  postalCode = @"Unknown";
   geocodePending = NO;
   geocoder = [[CLGeocoder alloc] init];
   

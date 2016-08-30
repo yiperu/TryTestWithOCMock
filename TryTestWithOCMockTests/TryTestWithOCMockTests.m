@@ -1,25 +1,26 @@
 //
-//  TryTestWithOCMockUITests.m
-//  TryTestWithOCMockUITests
+//  TryTestWithOCMockTests.m
+//  TryTestWithOCMockTests
 //
-//  Created by Henry AT on 8/29/16.
+//  Created by Henry AT on 8/30/16.
 //  Copyright © 2016 Apps4s. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-//#import <OCMock/OCMock.h>
+#import <OCMock/OCMock.h>
 #import "MyLocation.h"
 
-@interface TryTestWithOCMockUITests : XCTestCase
+@interface TryTestWithOCMockTests : XCTestCase
 @property (nonatomic, strong) MyLocation *myLocation;
 @end
 
-@implementation TryTestWithOCMockUITests
-@synthesize myLocation;
 
+
+
+@implementation TryTestWithOCMockTests
+@synthesize myLocation;
 - (void)setUp {
     [super setUp];
-  
     myLocation = [[MyLocation alloc] init];
 }
 
@@ -28,6 +29,7 @@
     myLocation = nil;
     [super tearDown];
 }
+
 
 // Si se inicializaron los objetos correctamente, en este caso la propiedad "locationManager" que se crea en el constructor
 // = = = = = =

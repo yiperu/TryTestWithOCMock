@@ -38,6 +38,16 @@
                ReferencedContainer = "container:TryTestWithOCMock.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1EB95BFC1D75599C00B95BC5"
+               BuildableName = "TryTestWithOCMockTests.xctest"
+               BlueprintName = "TryTestWithOCMockTests"
+               ReferencedContainer = "container:TryTestWithOCMock.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

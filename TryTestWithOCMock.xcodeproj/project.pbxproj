@@ -13,15 +13,15 @@
 		1EB95BCE1D753A2F00B95BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB95BCC1D753A2F00B95BC5 /* Main.storyboard */; };
 		1EB95BD01D753A2F00B95BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB95BCF1D753A2F00B95BC5 /* Assets.xcassets */; };
 		1EB95BD31D753A2F00B95BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB95BD11D753A2F00B95BC5 /* LaunchScreen.storyboard */; };
-		1EB95BDE1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB95BDD1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m */; };
 		1EB95BEB1D753F5800B95BC5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BEA1D753F5800B95BC5 /* MapKit.framework */; };
 		1EB95BED1D753F5F00B95BC5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BEC1D753F5F00B95BC5 /* CoreLocation.framework */; };
 		1EB95BF01D753FB700B95BC5 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB95BEF1D753FB700B95BC5 /* MyLocation.m */; };
-		1EB95BF31D754FC200B95BC5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BE81D753D0000B95BC5 /* libOCMock.a */; };
+		1EB95C001D75599C00B95BC5 /* TryTestWithOCMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB95BFF1D75599C00B95BC5 /* TryTestWithOCMockTests.m */; };
+		1EB95C071D755A5A00B95BC5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BE81D753D0000B95BC5 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1EB95BDA1D753A2F00B95BC5 /* PBXContainerItemProxy */ = {
+		1EB95C021D75599D00B95BC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1EB95BB81D753A2F00B95BC5 /* Project object */;
 			proxyType = 1;
@@ -41,14 +41,14 @@
 		1EB95BCF1D753A2F00B95BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EB95BD21D753A2F00B95BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EB95BD41D753A2F00B95BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EB95BD91D753A2F00B95BC5 /* TryTestWithOCMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryTestWithOCMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EB95BDD1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryTestWithOCMockUITests.m; sourceTree = "<group>"; };
-		1EB95BDF1D753A2F00B95BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EB95BE81D753D0000B95BC5 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
 		1EB95BEA1D753F5800B95BC5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1EB95BEC1D753F5F00B95BC5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1EB95BEE1D753FB700B95BC5 /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
 		1EB95BEF1D753FB700B95BC5 /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
+		1EB95BFD1D75599C00B95BC5 /* TryTestWithOCMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryTestWithOCMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB95BFF1D75599C00B95BC5 /* TryTestWithOCMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryTestWithOCMockTests.m; sourceTree = "<group>"; };
+		1EB95C011D75599C00B95BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EB95BD61D753A2F00B95BC5 /* Frameworks */ = {
+		1EB95BFA1D75599C00B95BC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB95BF31D754FC200B95BC5 /* libOCMock.a in Frameworks */,
+				1EB95C071D755A5A00B95BC5 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +79,7 @@
 				1EB95BEA1D753F5800B95BC5 /* MapKit.framework */,
 				1EB95BE81D753D0000B95BC5 /* libOCMock.a */,
 				1EB95BC21D753A2F00B95BC5 /* TryTestWithOCMock */,
-				1EB95BDC1D753A2F00B95BC5 /* TryTestWithOCMockUITests */,
+				1EB95BFE1D75599C00B95BC5 /* TryTestWithOCMockTests */,
 				1EB95BC11D753A2F00B95BC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				1EB95BC01D753A2F00B95BC5 /* TryTestWithOCMock.app */,
-				1EB95BD91D753A2F00B95BC5 /* TryTestWithOCMockUITests.xctest */,
+				1EB95BFD1D75599C00B95BC5 /* TryTestWithOCMockTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,13 +119,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1EB95BDC1D753A2F00B95BC5 /* TryTestWithOCMockUITests */ = {
+		1EB95BFE1D75599C00B95BC5 /* TryTestWithOCMockTests */ = {
 			isa = PBXGroup;
 			children = (
-				1EB95BDD1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m */,
-				1EB95BDF1D753A2F00B95BC5 /* Info.plist */,
+				1EB95BFF1D75599C00B95BC5 /* TryTestWithOCMockTests.m */,
+				1EB95C011D75599C00B95BC5 /* Info.plist */,
 			);
-			path = TryTestWithOCMockUITests;
+			path = TryTestWithOCMockTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,23 +148,23 @@
 			productReference = 1EB95BC01D753A2F00B95BC5 /* TryTestWithOCMock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1EB95BD81D753A2F00B95BC5 /* TryTestWithOCMockUITests */ = {
+		1EB95BFC1D75599C00B95BC5 /* TryTestWithOCMockTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EB95BE51D753A2F00B95BC5 /* Build configuration list for PBXNativeTarget "TryTestWithOCMockUITests" */;
+			buildConfigurationList = 1EB95C041D75599D00B95BC5 /* Build configuration list for PBXNativeTarget "TryTestWithOCMockTests" */;
 			buildPhases = (
-				1EB95BD51D753A2F00B95BC5 /* Sources */,
-				1EB95BD61D753A2F00B95BC5 /* Frameworks */,
-				1EB95BD71D753A2F00B95BC5 /* Resources */,
+				1EB95BF91D75599C00B95BC5 /* Sources */,
+				1EB95BFA1D75599C00B95BC5 /* Frameworks */,
+				1EB95BFB1D75599C00B95BC5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1EB95BDB1D753A2F00B95BC5 /* PBXTargetDependency */,
+				1EB95C031D75599D00B95BC5 /* PBXTargetDependency */,
 			);
-			name = TryTestWithOCMockUITests;
-			productName = TryTestWithOCMockUITests;
-			productReference = 1EB95BD91D753A2F00B95BC5 /* TryTestWithOCMockUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = TryTestWithOCMockTests;
+			productName = TryTestWithOCMockTests;
+			productReference = 1EB95BFD1D75599C00B95BC5 /* TryTestWithOCMockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -178,7 +178,7 @@
 					1EB95BBF1D753A2F00B95BC5 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					1EB95BD81D753A2F00B95BC5 = {
+					1EB95BFC1D75599C00B95BC5 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 1EB95BBF1D753A2F00B95BC5;
 					};
@@ -198,7 +198,7 @@
 			projectRoot = "";
 			targets = (
 				1EB95BBF1D753A2F00B95BC5 /* TryTestWithOCMock */,
-				1EB95BD81D753A2F00B95BC5 /* TryTestWithOCMockUITests */,
+				1EB95BFC1D75599C00B95BC5 /* TryTestWithOCMockTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,7 +214,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EB95BD71D753A2F00B95BC5 /* Resources */ = {
+		1EB95BFB1D75599C00B95BC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -235,21 +235,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EB95BD51D753A2F00B95BC5 /* Sources */ = {
+		1EB95BF91D75599C00B95BC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB95BDE1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m in Sources */,
+				1EB95C001D75599C00B95BC5 /* TryTestWithOCMockTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1EB95BDB1D753A2F00B95BC5 /* PBXTargetDependency */ = {
+		1EB95C031D75599D00B95BC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1EB95BBF1D753A2F00B95BC5 /* TryTestWithOCMock */;
-			targetProxy = 1EB95BDA1D753A2F00B95BC5 /* PBXContainerItemProxy */;
+			targetProxy = 1EB95C021D75599D00B95BC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -391,12 +391,12 @@
 			};
 			name = Release;
 		};
-		1EB95BE61D753A2F00B95BC5 /* Debug */ = {
+		1EB95C051D75599D00B95BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_BITCODE = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OCMock";
-				INFOPLIST_FILE = TryTestWithOCMockUITests/Info.plist;
+				INFOPLIST_FILE = TryTestWithOCMockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -406,18 +406,18 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apps4s.TryTestWithOCMockUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps4s.TryTestWithOCMockTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TryTestWithOCMock;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryTestWithOCMock.app/TryTestWithOCMock";
 			};
 			name = Debug;
 		};
-		1EB95BE71D753A2F00B95BC5 /* Release */ = {
+		1EB95C061D75599D00B95BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_BITCODE = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OCMock";
-				INFOPLIST_FILE = TryTestWithOCMockUITests/Info.plist;
+				INFOPLIST_FILE = TryTestWithOCMockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -427,9 +427,9 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apps4s.TryTestWithOCMockUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps4s.TryTestWithOCMockTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TryTestWithOCMock;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryTestWithOCMock.app/TryTestWithOCMock";
 			};
 			name = Release;
 		};
@@ -453,11 +453,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1EB95BE51D753A2F00B95BC5 /* Build configuration list for PBXNativeTarget "TryTestWithOCMockUITests" */ = {
+		1EB95C041D75599D00B95BC5 /* Build configuration list for PBXNativeTarget "TryTestWithOCMockTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EB95BE61D753A2F00B95BC5 /* Debug */,
-				1EB95BE71D753A2F00B95BC5 /* Release */,
+				1EB95C051D75599D00B95BC5 /* Debug */,
+				1EB95C061D75599D00B95BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

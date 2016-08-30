@@ -17,6 +17,7 @@
 		1EB95BE91D753D0000B95BC5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BE81D753D0000B95BC5 /* libOCMock.a */; };
 		1EB95BEB1D753F5800B95BC5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BEA1D753F5800B95BC5 /* MapKit.framework */; };
 		1EB95BED1D753F5F00B95BC5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BEC1D753F5F00B95BC5 /* CoreLocation.framework */; };
+		1EB95BF01D753FB700B95BC5 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB95BEF1D753FB700B95BC5 /* MyLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		1EB95BE81D753D0000B95BC5 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
 		1EB95BEA1D753F5800B95BC5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1EB95BEC1D753F5F00B95BC5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1EB95BEE1D753FB700B95BC5 /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
+		1EB95BEF1D753FB700B95BC5 /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 		1EB95BC21D753A2F00B95BC5 /* TryTestWithOCMock */ = {
 			isa = PBXGroup;
 			children = (
+				1EB95BEE1D753FB700B95BC5 /* MyLocation.h */,
+				1EB95BEF1D753FB700B95BC5 /* MyLocation.m */,
 				1EB95BC61D753A2F00B95BC5 /* AppDelegate.h */,
 				1EB95BC71D753A2F00B95BC5 /* AppDelegate.m */,
 				1EB95BC91D753A2F00B95BC5 /* ViewController.h */,
@@ -225,6 +230,7 @@
 			files = (
 				1EB95BCB1D753A2F00B95BC5 /* ViewController.m in Sources */,
 				1EB95BC81D753A2F00B95BC5 /* AppDelegate.m in Sources */,
+				1EB95BF01D753FB700B95BC5 /* MyLocation.m in Sources */,
 				1EB95BC51D753A2F00B95BC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,6 +14,7 @@
 		1EB95BD01D753A2F00B95BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB95BCF1D753A2F00B95BC5 /* Assets.xcassets */; };
 		1EB95BD31D753A2F00B95BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB95BD11D753A2F00B95BC5 /* LaunchScreen.storyboard */; };
 		1EB95BDE1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB95BDD1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m */; };
+		1EB95BE91D753D0000B95BC5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BE81D753D0000B95BC5 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		1EB95BD91D753A2F00B95BC5 /* TryTestWithOCMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryTestWithOCMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB95BDD1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryTestWithOCMockUITests.m; sourceTree = "<group>"; };
 		1EB95BDF1D753A2F00B95BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB95BE81D753D0000B95BC5 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB95BE91D753D0000B95BC5 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		1EB95BB71D753A2F00B95BC5 = {
 			isa = PBXGroup;
 			children = (
+				1EB95BE81D753D0000B95BC5 /* libOCMock.a */,
 				1EB95BC21D753A2F00B95BC5 /* TryTestWithOCMock */,
 				1EB95BDC1D753A2F00B95BC5 /* TryTestWithOCMockUITests */,
 				1EB95BC11D753A2F00B95BC5 /* Products */,
@@ -364,6 +368,10 @@
 			buildSettings = {
 				INFOPLIST_FILE = TryTestWithOCMockUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apps4s.TryTestWithOCMockUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = TryTestWithOCMock;
@@ -375,6 +383,10 @@
 			buildSettings = {
 				INFOPLIST_FILE = TryTestWithOCMockUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apps4s.TryTestWithOCMockUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = TryTestWithOCMock;

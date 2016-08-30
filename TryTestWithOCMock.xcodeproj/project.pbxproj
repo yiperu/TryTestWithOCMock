@@ -14,10 +14,10 @@
 		1EB95BD01D753A2F00B95BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB95BCF1D753A2F00B95BC5 /* Assets.xcassets */; };
 		1EB95BD31D753A2F00B95BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB95BD11D753A2F00B95BC5 /* LaunchScreen.storyboard */; };
 		1EB95BDE1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB95BDD1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m */; };
-		1EB95BE91D753D0000B95BC5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BE81D753D0000B95BC5 /* libOCMock.a */; };
 		1EB95BEB1D753F5800B95BC5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BEA1D753F5800B95BC5 /* MapKit.framework */; };
 		1EB95BED1D753F5F00B95BC5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BEC1D753F5F00B95BC5 /* CoreLocation.framework */; };
 		1EB95BF01D753FB700B95BC5 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB95BEF1D753FB700B95BC5 /* MyLocation.m */; };
+		1EB95BF31D754FC200B95BC5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BE81D753D0000B95BC5 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB95BE91D753D0000B95BC5 /* libOCMock.a in Frameworks */,
+				1EB95BF31D754FC200B95BC5 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +310,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -348,7 +350,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -360,7 +364,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TryTestWithOCMock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apps4s.TryTestWithOCMock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -371,7 +380,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TryTestWithOCMock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apps4s.TryTestWithOCMock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -380,7 +394,8 @@
 		1EB95BE61D753A2F00B95BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OCMock/";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OCMock";
 				INFOPLIST_FILE = TryTestWithOCMockUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -400,7 +415,8 @@
 		1EB95BE71D753A2F00B95BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OCMock/";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OCMock";
 				INFOPLIST_FILE = TryTestWithOCMockUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

@@ -15,6 +15,8 @@
 		1EB95BD31D753A2F00B95BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB95BD11D753A2F00B95BC5 /* LaunchScreen.storyboard */; };
 		1EB95BDE1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB95BDD1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m */; };
 		1EB95BE91D753D0000B95BC5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BE81D753D0000B95BC5 /* libOCMock.a */; };
+		1EB95BEB1D753F5800B95BC5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BEA1D753F5800B95BC5 /* MapKit.framework */; };
+		1EB95BED1D753F5F00B95BC5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB95BEC1D753F5F00B95BC5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		1EB95BDD1D753A2F00B95BC5 /* TryTestWithOCMockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryTestWithOCMockUITests.m; sourceTree = "<group>"; };
 		1EB95BDF1D753A2F00B95BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EB95BE81D753D0000B95BC5 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
+		1EB95BEA1D753F5800B95BC5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1EB95BEC1D753F5F00B95BC5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB95BED1D753F5F00B95BC5 /* CoreLocation.framework in Frameworks */,
+				1EB95BEB1D753F5800B95BC5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,8 @@
 		1EB95BB71D753A2F00B95BC5 = {
 			isa = PBXGroup;
 			children = (
+				1EB95BEC1D753F5F00B95BC5 /* CoreLocation.framework */,
+				1EB95BEA1D753F5800B95BC5 /* MapKit.framework */,
 				1EB95BE81D753D0000B95BC5 /* libOCMock.a */,
 				1EB95BC21D753A2F00B95BC5 /* TryTestWithOCMock */,
 				1EB95BDC1D753A2F00B95BC5 /* TryTestWithOCMockUITests */,
